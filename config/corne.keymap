@@ -30,10 +30,10 @@
 
         upper {
             bindings = <
-&trans  &kp ASTERISK        &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &none   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &kp COMMA           &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &none   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp RA(LEFT_SHIFT)  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &none   &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                                          &kp NUMBER_0  &trans        &trans        &trans  &mo 3                  &trans
+&trans  &kp ASTERISK  &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp PLUS      &none   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &kp COMMA     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp PERIOD    &none   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp RA(Q)     &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS     &none   &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
+                                    &kp NUMBER_0  &trans        &trans        &trans  &mo 3                  &trans
             >;
         };
 
