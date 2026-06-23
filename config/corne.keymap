@@ -35,10 +35,10 @@
 
         upper {
             bindings = <
-&trans  &kp ASTERISK   &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp PLUS        &none   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
-&trans  &mt COMMA DOT  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_0    &none   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
-&trans  &kp RA(Q)      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp MINUS       &none   &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                                     &kp BACKSPACE  &trans        &kp ENTER       &trans  &mo 3                  &trans
+&trans  &kp ASTERISK   &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp PLUS        &kp BACKSLASH      &kp RIGHT_PARENTHESIS  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
+&trans  &mt COMMA DOT  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_0    &kp RIGHT_BRACKET  &kp LEFT_PARENTHESIS   &kp LS(RIGHT_BRACKET)  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
+&trans  &kp RA(Q)      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp MINUS       &mkp MB3           &mkp MB1               &mkp MB2               &kp GRAVE             &kp LS(GRAVE)     &trans
+                                     &kp BACKSPACE  &trans        &kp ENTER       &trans             &mo 3                  &trans
             >;
         };
 
@@ -53,10 +53,10 @@
 
         extra {
             bindings = <
-&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12    &trans    &trans      &trans       &trans      &trans    &trans
-&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans    &kp C_PREV  &kp C_PAUSE  &kp C_NEXT  &trans    &trans
-&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10    &mkp MB4  &mkp MB1    &mkp MB2     &mkp MB3    &mkp MB5  &trans
-                        &trans  &trans  &trans     &trans    &trans      &trans
+&trans  &trans  &kp F7  &kp F8  &kp F9  &kp F12    &trans  &trans      &trans      &trans  &trans  &trans
+&trans  &trans  &kp F4  &kp F5  &kp F6  &kp F11    &trans  &kp C_PREV  &kp C_NEXT  &trans  &trans  &trans
+&trans  &trans  &kp F1  &kp F2  &kp F3  &kp F10    &trans  &trans      &trans      &trans  &trans  &trans
+                        &trans  &trans  &trans     &trans  &trans      &trans
             >;
         };
     };
