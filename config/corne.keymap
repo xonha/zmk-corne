@@ -46,7 +46,7 @@
             bindings = <
 &trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BSLH)    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp C_VOLUME_UP    &trans
 &trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &trans
-&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT            &kp C_VOL_DN    &kp F16         &kp F17       &kp C_VOL_UP     &kp CAPSLOCK       &trans
+&trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT            &none           &kp F16         &kp F17       &kp F18          &kp CAPSLOCK       &trans
                                                &trans     &mo 3         &trans                 &trans          &trans          &trans
             >;
         };
