@@ -27,7 +27,7 @@
 
             bindings = <
 &trans  &kp Q             &kp W  &kp E          &kp R        &kp T               &kp Y               &kp U         &kp I          &kp O    &kp P                  &trans
-&trans  &kp A             &kp S  &kp D          &kp F        &kp G               &kp H               &kp J         &kp K          &kp L    &lt 3 SEMI             &trans
+&trans  &kp A             &kp S  &kp D          &kp F        &kp G               &kp H               &kp J         &kp K          &kp L    &kp SEMI               &trans
 &trans  &mt LEFT_SHIFT Z  &kp X  &kp C          &kp V        &kp B               &kp N               &kp M         &kp COMMA      &kp DOT  &mt RIGHT_SHIFT SLASH  &trans
                                  &mt LCTRL TAB  &lt 1 SPACE  &mt LEFT_WIN ESC    &mt LEFT_ALT ENTER  &lt 2 DELETE  &kp BACKSPACE
             >;
@@ -38,7 +38,7 @@
 &trans  &kp ASTERISK   &kp NUMBER_7  &kp NUMBER_8   &kp NUMBER_9  &kp PLUS        &none   &kp LS(RIGHT_BRACKET)  &kp LS(BACKSLASH)      &kp LS(LEFT_BRACKET)  &kp LEFT_BRACKET  &trans
 &trans  &mt COMMA DOT  &kp NUMBER_4  &kp NUMBER_5   &kp NUMBER_6  &kp NUMBER_0    &none   &kp LEFT_PARENTHESIS   &kp RIGHT_PARENTHESIS  &kp LS(APOSTROPHE)    &kp APOSTROPHE    &trans
 &trans  &kp RA(Q)      &kp NUMBER_1  &kp NUMBER_2   &kp NUMBER_3  &kp MINUS       &none   &kp RIGHT_BRACKET      &kp BACKSLASH          &kp GRAVE             &kp LS(GRAVE)     &trans
-                                     &kp BACKSPACE  &trans        &kp ENTER       &trans  &trans                 &trans
+                                     &kp BACKSPACE  &trans        &kp ENTER       &trans  &mo 3                  &trans
             >;
         };
 
@@ -47,7 +47,7 @@
 &trans  &kp RA(Q)             &kp RA(W)        &kp PLUS   &kp ASTERISK  &kp LS(NON_US_BSLH)    &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END          &kp C_VOLUME_UP    &trans
 &trans  &kp NON_US_BACKSLASH  &kp UNDERSCORE   &kp MINUS  &kp EQUAL     &kp AMPERSAND          &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT_ARROW  &kp C_VOLUME_DOWN  &trans
 &trans  &kp AT_SIGN           &kp EXCLAMATION  &kp HASH   &kp DOLLAR    &kp PERCENT            &kp F13         &kp F14         &kp F15       &kp F16          &kp CAPSLOCK       &trans
-                                               &trans     &trans        &trans                 &trans          &trans          &trans
+                                               &trans     &mo 3         &trans                 &trans          &trans          &trans
             >;
         };
 
